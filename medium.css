@@ -1,0 +1,14 @@
+.about-me {
+  width: 500px !important;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  padding-left: 175px !important;
+  top: 110%;
+  cursor: pointer;
+  animation: fadeAndScale 3s;
+  animation-delay: -0.2s;
+  transform-origin: center bottom;
+  resize: horizontal;
+  background-size: cover;
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #29282c;
+}
+
+.Heading {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  color: #fff;
+  font-size: 76px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 250px;
+}
+
+.intro-title {
+  font-size: 76px;
+  animation: fadeAndScale 1s;
+  animation-delay: -0.2s;
+  transform-origin: center bottom;
+}
+
+.intro-name {
+  font-weight: 700;
+  color: #fab23d;
+  transition: transform 0.5s ease;
+}
+
+.intro-desc {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  padding-left: 250px;
+  color: #ffffffbc;
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  animation: fadeAndScale 1.5s;
+  animation-delay: -0.2s;
+  transform-origin: center bottom;
+}
+
+.description {
+  width: 625px;
+  position: absolute;
+  left: 0px;
+  top: 58%;
+  padding-left: 250px;
+  color: #ffffff89;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  animation: fadeAndScale 2s;
+  animation-delay: -0.2s;
+  transform-origin: center bottom;
+}
+
+.email-message {
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  position: absolute;
+  left: 250px;
+  top: 72%;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff00;
+  color: #fab23d;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 700;
+  animation: fadeAndScale 3s;
+  animation-delay: -0.2s;
+  transform-origin: center bottom;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.email-message:hover {
+  background: #fab23d;
+  color: #4b4951f1;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  padding-left: -10px;
+}
+
+.email-message img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: -40px;
+  top: 10%;
+  visibility: hidden;
+  border: none;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.email-message:hover img {
+  visibility: visible;
+  border: none;
+}
+.email-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.email-message:hover span {
+  transform: translate(-50%, -50%) translateX(-15px);
+}
+
+.bubble-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  width: 50%;
+  height: 350px;
+  position: relative;
+  left: 250px;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.liquid-shape {
+  background: linear-gradient(45deg, #fa5c3d 0%, #fab23d 100%);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: bubbleIntro 1s linear, liquid 8s infinite linear;
+  animation-fill-mode: forwards;
+}

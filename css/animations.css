@@ -1,0 +1,59 @@
+@keyframes fadeAndScale {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fadeUpScale {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes liquid {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-size: 300% 150%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes bubbleIntro {
+  0% {
+    opacity: 1;
+    transform: scale3d(0, 0, 1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}

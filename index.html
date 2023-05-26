@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/about-me.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/experience.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="icon" href="favicon.icon" />
+    <title>Tom</title>
+  </head>
+  <body>
+    <div id="home">
+      <div class="Heading">
+        <span class="intro-title"
+          >hi,
+          <span class="intro-name">Tom</span>
+          here!
+        </span>
+      </div>
+      <span class="intro-desc">trying to be an engineer</span>
+      <span class="description"
+        >i'm a mechanical engineer based in Vancouver. I have great interest in
+        automation technologies, full-stack development, artificial
+        intelligence, robotics, and everything in between.</span
+      >
+    </div>
+    <div class="email">
+      <button type="button" class="email-message">
+        <span class="email-text"
+          ><a href="mailto:tombridger1030@gmail.com"
+            >say hi!<img src="images/send1.png" /></a
+        ></span>
+      </button>
+    </div>
+    <div class="bubble-container" id="bubble-container">
+      <div class="liquid-shape"></div>
+    </div>
+    <div class="navbar">
+      <div>
+        <a href="#home">/home</a>
+      </div>
+      <div>
+        <a href="#about-me">/about me</a>
+      </div>
+      <div>
+        <a href="#experience">/experience</a>
+      </div>
+      <div>
+        <a href="#projects">/projects</a>
+      </div>
+    </div>
+    <div class="about-me" id="about-me">
+      <div class="about-me-title">/about-me</div>
+      <div class="about-me-description">
+        <span>I am currently a full-time 5th year student at</span>
+        <span class="highlight">McGill University,</span>
+        <span>working towards my</span>
+        <span class="highlight"> Mechanical Engineering</span>
+        <span
+          >degree. This recent summer I spent working on several personal
+          projects to improve my skills.</span
+        >
+      </div>
+      <div class="about-me-recents">
+        <span
+          >Here are some of the tools I have recently been working with:</span
+        >
+        <table>
+          <tr>
+            <td>
+              <ul class="coding">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Tensorflow</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="mechanical">
+                <li>Carpentry</li>
+                <li>Electric Circuits</li>
+                <li>3D Printing</li>
+                <li>Machining</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="software">
+                <li>Solidworks</li>
+                <li>NX</li>
+                <li>MatLAB</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="about-me-hobbies">
+        <span
+          >Outside of school, I love to stay active with sports and fitness,
+          including Surfing, Jiu Jitsu, and Tennis. I also enjoy making and
+          editing videos.</span
+        >
+      </div>
+    </div>
+    <div class="profile-pic">
+      <img src="images/profile.jpg" />
+    </div>
+    <div class="experience" id="experience">
+      <div class="experience-title">/experience</div>
+      <div class="experience-tabs">
+        <input
+          type="radio"
+          id="tabsilver"
+          name="experience-tabs"
+          checked="checked"
+        />
+        <label for="tabsilver">Traylor Bros Inc.</label>
+        <div class="tab">
+          <h2>Field Engineering Intern</h2>
+          <span class="period">MAY 2022 - AUG 2022</span>
+          <ul class="experience-points">
+            <li>
+              Trained to become projects main Drone Pilot to 3D map and
+              photograph changes on project's site.
+            </li>
+            <li>
+              Performed, per request, optimization of several pipeline shaft
+              constructions using drawings.
+            </li>
+            <li>
+              Coordinated daily quality checks, including daily reports, on
+              recently worked pipeline shaft construction
+            </li>
+            <li>
+              Worked under supervision of experienced field engineers, to
+              receive training on industry equipment and tests
+            </li>
+          </ul>
+        </div>
+        <input
+          type="radio"
+          id="tabfree"
+          name="experience-tabs"
+          checked="checked"
+        />
+        <label for="tabfree">Mint Landscaping</label>
+        <div class="tab">
+          <h2>Landscaping Worker</h2>
+          <span class="period">MAY 2020 - OCT 2020</span>
+          <ul class="experience-points">
+            <li>
+              Answered questions and addressed customer concerns according to
+              timetables and landscape development requests
+            </li>
+            <li>
+              Responsible for a team of 3 to install landscape design plans of
+              sod, sown, grass, flowers and foliage
+            </li>
+            <li>
+              Completed daily timesheets and project reports to maintain client
+              files for future reference
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <div class="projects-title">/projects</div>
+    </div>
+    <script src="BubbleMove.js"></script>
+    <script src="ResizeWindow.js"></script>
+  </body>
+</html>

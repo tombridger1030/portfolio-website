@@ -1,0 +1,22 @@
+.navbar {
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  overflow-x: hidden;
+  color: #fab23d;
+  margin-right: 30px;
+  font-size: 17px;
+  line-height: 32px;
+  animation: fadeAndScale 3s;
+}
+
+.navbar a:hover {
+  color: #fa5c3d;
+  font-size: 19px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
