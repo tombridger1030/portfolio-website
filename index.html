@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="about-me" id="about-me">
-      <div class="about-me-title">/about-me</div>
+      <div class="about-me-title">/ about-me</div>
       <div class="about-me-description">
         <span>I am currently a full-time 5th year student at</span>
         <span class="highlight">McGill University,</span>
@@ -108,10 +108,10 @@
       </div>
     </div>
     <div class="profile-pic">
-      <img src="images/profile.jpg" />
+      <img class="profile-pic" src="images/profile.jpg" />
     </div>
     <div class="experience" id="experience">
-      <div class="experience-title">/experience</div>
+      <div class="experience-title">/ experience</div>
       <div class="experience-tabs">
         <input
           type="radio"
@@ -170,8 +170,37 @@
       </div>
     </div>
     <div class="projects" id="projects">
-      <div class="projects-title">/projects</div>
+      <div class="projects-title">/ projects</div>
+      <div class="mechanical-projects">
+        <div class="project-title">Mechanical</div>
+        <div class="card-container" id="card-container">
+          <div class="card-title">Homemade Desk</div>
+          <div class="card-desc">
+            A desk made using store-bought 2x8 and 2x6. With the use of
+            machining tools to assist with the build process.
+          </div>
+          <div class="card-skills">- Carpentry, Tooling</div>
+          <a class="opening-arrow" id="opening-arrow">
+            <div class="arrow"></div>
+          </a>
+        </div>
+      </div>
+      <div class="software-projects">
+        <div class="software-title">Software</div>
+        <div class="card-container-software" id="card-container-software">
+          <div class="card-title">Pathway</div>
+          <div class="card-desc">
+            A chrome extension that promotes time management skills. All the
+            tools needed to increase everyone's efficiency
+          </div>
+          <div class="card-skills">- HSS, CSS, JS</div>
+          <a class="opening-arrow-software" id="opening-arrow-software">
+            <div class="arrow"></div>
+          </a>
+        </div>
+      </div>
     </div>
+    <script src="ExpandableCard.js"></script>
     <script src="BubbleMove.js"></script>
     <script src="ResizeWindow.js"></script>
   </body>

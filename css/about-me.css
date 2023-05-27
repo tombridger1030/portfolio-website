@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=NTR&family=Poppins&display=swap");
 .about-me {
-  width: 850px;
+  width: 35%;
   height: 600px;
   position: absolute;
-  left: 250px;
+  left: 15%;
   top: 110%;
   animation: fadeAndScale 3s;
   animation-delay: -0.2s;
@@ -11,37 +11,6 @@
   scroll-padding-top: 400px;
 }
 
-@media only screen and (max-width: 900px) {
-  #about {
-    width: 400px;
-    padding-left: 10%;
-    padding-right: 25%;
-  }
-
-  .about-me-description {
-    padding-right: 25%;
-  }
-
-  .about-me-hobbies {
-    padding-right: 25%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  #about {
-    max-width: 200px;
-    padding-left: 10%;
-    padding-right: 25%;
-  }
-
-  .about-me-description {
-    padding-right: 25%;
-  }
-
-  .about-me-hobbies {
-    padding-right: 25%;
-  }
-}
 .about-me-title {
   color: #fab23d;
   font-size: 38px;
@@ -67,7 +36,7 @@
 }
 
 .about-me table {
-  width: 550px;
+  width: 100%;
   padding-left: 20px;
 }
 
@@ -85,11 +54,11 @@
 }
 
 img {
-  width: 300px;
+  width: 30%;
   height: 300px;
   position: absolute;
   top: 115%;
-  right: 325px;
+  margin-left: 60%;
   border-radius: 10px;
   animation: fadeAndScale 3s;
   animation-delay: -0.2s;
@@ -98,9 +67,14 @@ img {
   border: none;
 }
 
-@media only screen and (max-width: 900px) {
-  img {
-    max-width: 200px;
-    visibility: hidden;
+@media (max-width: 900px) {
+  .profile-pic {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    display: none !important;
   }
 }

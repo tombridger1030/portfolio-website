@@ -18,7 +18,7 @@ body {
   color: #fff;
   font-size: 76px;
   font-family: "Poppins", sans-serif;
-  padding-left: 250px;
+  padding-left: 15%;
 }
 
 .intro-title {
@@ -35,10 +35,11 @@ body {
 }
 
 .intro-desc {
+  width: 50%;
   position: absolute;
   left: 0px;
   top: 50%;
-  padding-left: 250px;
+  padding-left: 15%;
   color: #ffffffbc;
   font-size: 42px;
   font-family: "Poppins", sans-serif;
@@ -48,11 +49,11 @@ body {
 }
 
 .description {
-  width: 625px;
+  width: 40%;
   position: absolute;
   left: 0px;
   top: 58%;
-  padding-left: 250px;
+  padding-left: 15%;
   color: #ffffff89;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
@@ -70,7 +71,7 @@ body {
   height: 50px;
   text-decoration: none;
   position: absolute;
-  left: 250px;
+  left: 15%;
   top: 72%;
   border-radius: 10px;
   border: none;
@@ -135,7 +136,7 @@ a:active {
   width: 50%;
   height: 350px;
   position: relative;
-  left: 250px;
+  left: 15%;
   pointer-events: none;
   overflow: hidden;
   border-radius: 10px;

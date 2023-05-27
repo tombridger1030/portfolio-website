@@ -1,8 +1,8 @@
 .experience {
-  width: 700px;
+  width: 40%;
   height: 500px;
   position: absolute;
-  left: 250px;
+  left: 15%;
   top: 160%;
   animation: fadeAndScale 3s;
   animation-delay: -0.2s;
@@ -100,9 +100,17 @@
 }
 
 .experience-points li {
+  font-family: "NTR", sans-serif;
+  font-size: 22px;
   animation: fadeUpScale 1s;
   animation-delay: -0.2s;
   animation-fill-mode: forwards;
   transform-origin: center bottom;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    margin-top: 20%;
+  }
 }
