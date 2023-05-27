@@ -8,6 +8,7 @@
   animation-delay: -0.2s;
   transform-origin: center bottom;
   scroll-padding-top: 500px;
+  margin-top: 5%;
 }
 
 .projects-title {
@@ -225,5 +226,13 @@
   }
   .software-title {
     padding-left: 22%;
+  }
+  #card-container.active {
+    width: 100%;
+    left: -30%;
+  }
+  #card-container-software.active {
+    width: 210%;
+    left: -35%;
   }
 }
